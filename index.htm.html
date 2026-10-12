@@ -1,0 +1,31 @@
+<form action="https://formsubmit.app/f/hxqywydfup" method="POST" class="fs-form">
+  <div class="fs-field">
+    <label for="fs-name" class="fs-label">Name</label>
+    <input id="fs-name" type="text" name="name" placeholder="Jane Doe" required class="fs-input">
+  </div>
+  <div class="fs-field">
+    <label for="fs-email" class="fs-label">Email</label>
+    <input id="fs-email" type="email" name="email" placeholder="jane@example.com" required class="fs-input">
+  </div>
+  <div class="fs-field">
+    <label for="fs-message" class="fs-label">Message</label>
+    <textarea id="fs-message" name="message" rows="5" placeholder="How can we help?" required class="fs-input"></textarea>
+  </div>
+  <!-- Honeypot: leave this hidden field empty to catch bots -->
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+  <!-- Optional: where to send people after submitting -->
+  <!-- <input type="hidden" name="_redirect" value="https://yoursite.com/thanks"> -->
+  <button type="submit" class="fs-button">Submit</button>
+</form>
+
+<style>
+  .fs-form { max-width: 32rem; margin: 0 auto; display: grid; gap: 1.1rem; font-family: system-ui, sans-serif; }
+  .fs-field { display: grid; gap: 0.35rem; border: 0; padding: 0; margin: 0; }
+  .fs-label { font-size: 0.875rem; font-weight: 600; color: #18181b; }
+  .fs-input { width: 100%; box-sizing: border-box; border: 1px solid #d4d4d8; border-radius: 0.5rem; padding: 0.6rem 0.75rem; font: inherit; font-size: 0.9rem; }
+  .fs-input:focus { outline: 2px solid #6366f155; border-color: #6366f1; }
+  .fs-choice { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; }
+  .fs-help { font-size: 0.75rem; color: #71717a; margin: 0; }
+  .fs-button { background: #18181b; color: #fff; border: 0; border-radius: 0.5rem; padding: 0.7rem 1rem; font-weight: 600; cursor: pointer; }
+  .fs-button:hover { background: #27272a; }
+               </style>
